@@ -1,0 +1,168 @@
+/* add your CSS here */
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Roboto:wght@100&display=swap');
+
+body{
+	background: url("img/p1_1.png") no-repeat left top, url("img/p1_2.png") no-repeat right top, #e1e4eb;
+}
+
+.header-block{
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+table{
+	width: 50%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.table-header{
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.table-body {
+}
+
+li{
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	text-align: center;
+	background-color: rgba(42,60,74,0.5);
+	border-radius: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+.lilabel{
+	text-align: left;
+	margin-bottom: auto;
+	margin-top: auto;
+}
+
+td{
+	min-width: 400px;
+	background-color: rgba(127,148,179,0.3);
+}
+
+ul{
+	padding: 0;
+    list-style-type:none;
+	text-align: top;
+}
+
+textarea,p{
+    display: inline-block;
+    text-align: left;
+	padding: 5px 0px 2px 0px;
+	margin:0;
+}
+
+.filter {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+.savedimg {
+	max-width: 100%;
+	width: 340px;
+	border-radius: 30px;
+}
+
+button {
+	border-radius: 30px;
+    background-color: #bbcad1;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+	width: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.priority {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	padding: 5px 0px 2px 0px;
+}
+
+.input {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	text-align: center;
+	background-color: rgba(42,60,74,0.5);
+	border-radius: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+#txtVal {
+	background-color: rgba(42,60,74,0);
+	height: 50px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	border-radius: 10px;
+	border-style: none;
+	resize: none;
+}
+
+select {
+	font-family: 'Roboto', sans-serif;
+	border-radius: 30px;
+    background-color: #bbcad1;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.imglabel {
+	margin-left: auto;
+	margin-right: auto;
+}
+  
+button:hover {
+    transform: translateY(-5px);
+	
+  }
+  
+button:active {
+	background-color: #2a3c4a;
+}
+
+select:hover{
+	background-color: #2a3c4a;
+}
