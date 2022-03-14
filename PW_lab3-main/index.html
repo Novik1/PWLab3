@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANA PETRANIS, FAF-191</title> <!-- CHANGE THESE VALUES -->
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <!-- ADD YOUR CODE HERE -->
+	<div class="header-block">
+		<h1>MY TO-NOT-DO LIST</h1>
+	</div>
+	
+	<div class="table-block">
+		<table>
+			<tr>
+				<td><div class="table-header">
+					<h2>TO-NOT-DO</h2>
+				</div></td>
+				
+				<td><div class="table-header">
+					<h2>NOT DONE</h2>
+				</div></td>
+			</tr>
+			
+			<tr>
+				<td>
+					<div class="table-body">
+						<div class="list">
+							<ul id="list1">
+							</ul>
+						</div>
+						<div class="input">
+							<textarea type="text" id="txtVal"></textarea>
+							<select id="priority">
+							  <option value="1">Urgent</option>
+							  <option value="2" selected="selected">Normal</option>
+							  <option value="3">Not urgent</option>
+							</select>
+							<p class="imglabel"><input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)" style="display: none;"></p>
+							<p class="imglabel"><label for="file" style="cursor: pointer;">Upload Image</label></p>
+							<p class="imglabel"><img id="output" width="200" /></p>
+							<button onclick="addLi()">+</button>
+						</div>
+					</div>
+				</td>
+				
+				<td>
+					<div class="table-body">
+						<ul id="list2"></ul>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</div>
+	
+	<div class="filter">
+		<select id="filter" onclick="filter()">
+			<option value="" selected="selected">No filter</option>
+			<option value="Urgent">Show urgent</option>
+			<option value="Normal">Show normal</option>
+			<option value="Not urgent">Show not urgent</option>
+		</select>		
+	</div>
+	
+  </body>
+</html>
